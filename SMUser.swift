@@ -9,13 +9,15 @@
 import Foundation
 
 class SMUser{
-    var Id:String
-    var Name:String
-    var Jobs:[Job]?
+    var Value:PFUser
     
-    init(id:String, name:String, jobs:[Job]){
-        Id = id
-        Name = name
-        Jobs = jobs
+    var WorkPalces:[String] = [] //Array of PersonalWorkPlaces
+    
+    init(){
+        Value = PFUser.currentUser()
+    }
+    
+    init(user:PFUser){
+        Value = user
     }
 }

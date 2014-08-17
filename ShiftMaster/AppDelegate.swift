@@ -16,6 +16,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication!, didFinishLaunchingWithOptions launchOptions: NSDictionary!) -> Bool {
         // Override point for customization after application launch.
+        Parse.setApplicationId("itsKIXwRwRMiAwv5m5E2af0212dcFpkwgKIMidyQ", clientKey: "We6JeAi1XjI4KzUpi9GL7QLMdb5LSAhmqgjHA1qP")
+        
+//        var user = PFUser()
+//        user.username = "lyair2"
+//        user.password = "12345"
+//        user.email = "email2@example.com"
+//        // other fields can be set just like with PFObject
+//        var workPlaces = ["microsoft","Yahoo"]
+//        user["WorkPlacesArray"] = workPlaces
+//        
+//        user.signUpInBackgroundWithBlock {
+//            (succeeded: Bool!, error: NSError!) -> Void in
+//            if !error {
+//                // Hooray! Let them use the app now.
+//            } else {
+//                let errorString = error.userInfo["error"] as NSString
+//                // Show the errorString somewhere and let the user try again.
+//            }
+//        }
+        
         return true
     }
 

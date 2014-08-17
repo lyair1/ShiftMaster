@@ -7,6 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B06F6F3E198D028800453FD2 /* SMUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06F6F3D198D028800453FD2 /* SMUIViewController.swift */; };
+		B06F6F40198D02D700453FD2 /* SMCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06F6F3F198D02D700453FD2 /* SMCommon.swift */; };
+		B06F6F43198D0E9000453FD2 /* WorkPlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06F6F42198D0E9000453FD2 /* WorkPlacesViewController.swift */; };
+		B06F6F45198D28BB00453FD2 /* WorkPlaceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B06F6F44198D28BB00453FD2 /* WorkPlaceCell.xib */; };
+		B06F6F47198D2A2600453FD2 /* WorkPlaceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06F6F46198D2A2600453FD2 /* WorkPlaceCell.swift */; };
+		B06F6F4A199648E800453FD2 /* UserProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06F6F49199648E800453FD2 /* UserProvider.swift */; };
+		B06F6F4D19964A6200453FD2 /* SMUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06F6F4C19964A6200453FD2 /* SMUser.swift */; };
+		B06F6F4F19964B6600453FD2 /* WorkPalce.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06F6F4E19964B6600453FD2 /* WorkPalce.swift */; };
+		B06F6F5319964EB200453FD2 /* Shift.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06F6F5219964EB200453FD2 /* Shift.swift */; };
+		B06F6F55199659B900453FD2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B06F6F54199659B900453FD2 /* AudioToolbox.framework */; };
+		B06F6F57199659C400453FD2 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B06F6F56199659C400453FD2 /* CFNetwork.framework */; };
+		B06F6F59199659CF00453FD2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B06F6F58199659CF00453FD2 /* CoreGraphics.framework */; };
+		B06F6F5B199659D900453FD2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B06F6F5A199659D900453FD2 /* CoreLocation.framework */; };
+		B06F6F5D199659E400453FD2 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B06F6F5C199659E400453FD2 /* libz.dylib */; };
+		B06F6F5F199659ED00453FD2 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B06F6F5E199659ED00453FD2 /* MobileCoreServices.framework */; };
+		B06F6F61199659F600453FD2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B06F6F60199659F600453FD2 /* QuartzCore.framework */; };
+		B06F6F63199659FF00453FD2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B06F6F62199659FF00453FD2 /* Security.framework */; };
+		B06F6F6519965A0500453FD2 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B06F6F6419965A0500453FD2 /* StoreKit.framework */; };
+		B06F6F6719965A0E00453FD2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B06F6F6619965A0E00453FD2 /* SystemConfiguration.framework */; };
+		B06F6F6919965A4800453FD2 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B06F6F6819965A4800453FD2 /* Parse.framework */; };
+		B06F6F6F1996616800453FD2 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B06F6F6E1996616800453FD2 /* Social.framework */; };
+		B06F6F71199661A000453FD2 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B06F6F70199661A000453FD2 /* Accounts.framework */; };
+		B06F6F7719968B0200453FD2 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06F6F7619968B0200453FD2 /* SwiftyJSON.swift */; };
+		B06F6F79199A789700453FD2 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06F6F78199A789700453FD2 /* Calculator.swift */; };
+		B06F6F7B199A791400453FD2 /* SalaryAditional.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06F6F7A199A791400453FD2 /* SalaryAditional.swift */; };
+		B06F6F7D199A7BA100453FD2 /* SalaryPrecent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06F6F7C199A7BA100453FD2 /* SalaryPrecent.swift */; };
+		B06F6F7F199A7D9900453FD2 /* SalaryHourly.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06F6F7E199A7D9900453FD2 /* SalaryHourly.swift */; };
+		B06F6F81199D13ED00453FD2 /* ParseClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06F6F80199D13ED00453FD2 /* ParseClasses.swift */; };
 		B0A23AC419827DC8002334DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A23AC319827DC8002334DD /* AppDelegate.swift */; };
 		B0A23AC619827DC8002334DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A23AC519827DC8002334DD /* ViewController.swift */; };
 		B0A23AC919827DC8002334DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A23AC719827DC8002334DD /* Main.storyboard */; };
@@ -25,6 +53,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B06F6F3D198D028800453FD2 /* SMUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMUIViewController.swift; sourceTree = "<group>"; };
+		B06F6F3F198D02D700453FD2 /* SMCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMCommon.swift; sourceTree = "<group>"; };
+		B06F6F42198D0E9000453FD2 /* WorkPlacesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkPlacesViewController.swift; sourceTree = "<group>"; };
+		B06F6F44198D28BB00453FD2 /* WorkPlaceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WorkPlaceCell.xib; sourceTree = "<group>"; };
+		B06F6F46198D2A2600453FD2 /* WorkPlaceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkPlaceCell.swift; sourceTree = "<group>"; };
+		B06F6F49199648E800453FD2 /* UserProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProvider.swift; sourceTree = "<group>"; };
+		B06F6F4C19964A6200453FD2 /* SMUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMUser.swift; sourceTree = "<group>"; };
+		B06F6F4E19964B6600453FD2 /* WorkPalce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkPalce.swift; sourceTree = "<group>"; };
+		B06F6F5219964EB200453FD2 /* Shift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shift.swift; sourceTree = "<group>"; };
+		B06F6F54199659B900453FD2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B06F6F56199659C400453FD2 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		B06F6F58199659CF00453FD2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B06F6F5A199659D900453FD2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B06F6F5C199659E400453FD2 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		B06F6F5E199659ED00453FD2 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		B06F6F60199659F600453FD2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B06F6F62199659FF00453FD2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B06F6F6419965A0500453FD2 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		B06F6F6619965A0E00453FD2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B06F6F6819965A4800453FD2 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		B06F6F6B19965A9600453FD2 /* ShiftMaster-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShiftMaster-Bridging-Header.h"; sourceTree = "<group>"; };
+		B06F6F6E1996616800453FD2 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		B06F6F70199661A000453FD2 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		B06F6F7619968B0200453FD2 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		B06F6F78199A789700453FD2 /* Calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		B06F6F7A199A791400453FD2 /* SalaryAditional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalaryAditional.swift; sourceTree = "<group>"; };
+		B06F6F7C199A7BA100453FD2 /* SalaryPrecent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalaryPrecent.swift; sourceTree = "<group>"; };
+		B06F6F7E199A7D9900453FD2 /* SalaryHourly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalaryHourly.swift; sourceTree = "<group>"; };
+		B06F6F80199D13ED00453FD2 /* ParseClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseClasses.swift; sourceTree = "<group>"; };
 		B0A23ABE19827DC8002334DD /* ShiftMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShiftMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0A23AC219827DC8002334DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0A23AC319827DC8002334DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +98,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B06F6F71199661A000453FD2 /* Accounts.framework in Frameworks */,
+				B06F6F6F1996616800453FD2 /* Social.framework in Frameworks */,
+				B06F6F6719965A0E00453FD2 /* SystemConfiguration.framework in Frameworks */,
+				B06F6F6519965A0500453FD2 /* StoreKit.framework in Frameworks */,
+				B06F6F63199659FF00453FD2 /* Security.framework in Frameworks */,
+				B06F6F61199659F600453FD2 /* QuartzCore.framework in Frameworks */,
+				B06F6F5F199659ED00453FD2 /* MobileCoreServices.framework in Frameworks */,
+				B06F6F5D199659E400453FD2 /* libz.dylib in Frameworks */,
+				B06F6F6919965A4800453FD2 /* Parse.framework in Frameworks */,
+				B06F6F5B199659D900453FD2 /* CoreLocation.framework in Frameworks */,
+				B06F6F59199659CF00453FD2 /* CoreGraphics.framework in Frameworks */,
+				B06F6F57199659C400453FD2 /* CFNetwork.framework in Frameworks */,
+				B06F6F55199659B900453FD2 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,12 +124,81 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B06F6F3C198D025500453FD2 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				B06F6F3D198D028800453FD2 /* SMUIViewController.swift */,
+				B06F6F3F198D02D700453FD2 /* SMCommon.swift */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		B06F6F41198D0E6400453FD2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B06F6F42198D0E9000453FD2 /* WorkPlacesViewController.swift */,
+				B06F6F44198D28BB00453FD2 /* WorkPlaceCell.xib */,
+				B06F6F46198D2A2600453FD2 /* WorkPlaceCell.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B06F6F48199648CF00453FD2 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				B06F6F49199648E800453FD2 /* UserProvider.swift */,
+			);
+			name = Providers;
+			sourceTree = "<group>";
+		};
+		B06F6F4B19964A5400453FD2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B06F6F4C19964A6200453FD2 /* SMUser.swift */,
+				B06F6F4E19964B6600453FD2 /* WorkPalce.swift */,
+				B06F6F78199A789700453FD2 /* Calculator.swift */,
+				B06F6F5219964EB200453FD2 /* Shift.swift */,
+				B06F6F7A199A791400453FD2 /* SalaryAditional.swift */,
+				B06F6F7C199A7BA100453FD2 /* SalaryPrecent.swift */,
+				B06F6F7E199A7D9900453FD2 /* SalaryHourly.swift */,
+				B06F6F80199D13ED00453FD2 /* ParseClasses.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B06F6F6A19965A4F00453FD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B06F6F7619968B0200453FD2 /* SwiftyJSON.swift */,
+				B06F6F70199661A000453FD2 /* Accounts.framework */,
+				B06F6F6E1996616800453FD2 /* Social.framework */,
+				B06F6F6819965A4800453FD2 /* Parse.framework */,
+				B06F6F6619965A0E00453FD2 /* SystemConfiguration.framework */,
+				B06F6F6419965A0500453FD2 /* StoreKit.framework */,
+				B06F6F62199659FF00453FD2 /* Security.framework */,
+				B06F6F60199659F600453FD2 /* QuartzCore.framework */,
+				B06F6F5E199659ED00453FD2 /* MobileCoreServices.framework */,
+				B06F6F5C199659E400453FD2 /* libz.dylib */,
+				B06F6F5A199659D900453FD2 /* CoreLocation.framework */,
+				B06F6F58199659CF00453FD2 /* CoreGraphics.framework */,
+				B06F6F56199659C400453FD2 /* CFNetwork.framework */,
+				B06F6F54199659B900453FD2 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B0A23AB519827DC8002334DD = {
 			isa = PBXGroup;
 			children = (
+				B06F6F6A19965A4F00453FD2 /* Frameworks */,
+				B06F6F4B19964A5400453FD2 /* Models */,
+				B06F6F48199648CF00453FD2 /* Providers */,
+				B06F6F3C198D025500453FD2 /* Framework */,
+				B06F6F41198D0E6400453FD2 /* ViewControllers */,
 				B0A23AC019827DC8002334DD /* ShiftMaster */,
 				B0A23AD319827DC9002334DD /* ShiftMasterTests */,
 				B0A23ABF19827DC8002334DD /* Products */,
+				B06F6F6B19965A9600453FD2 /* ShiftMaster-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -190,6 +329,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0A23AC919827DC8002334DD /* Main.storyboard in Resources */,
+				B06F6F45198D28BB00453FD2 /* WorkPlaceCell.xib in Resources */,
 				B0A23ACB19827DC8002334DD /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,7 +348,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B06F6F3E198D028800453FD2 /* SMUIViewController.swift in Sources */,
+				B06F6F40198D02D700453FD2 /* SMCommon.swift in Sources */,
+				B06F6F7B199A791400453FD2 /* SalaryAditional.swift in Sources */,
+				B06F6F7719968B0200453FD2 /* SwiftyJSON.swift in Sources */,
+				B06F6F7F199A7D9900453FD2 /* SalaryHourly.swift in Sources */,
+				B06F6F43198D0E9000453FD2 /* WorkPlacesViewController.swift in Sources */,
+				B06F6F81199D13ED00453FD2 /* ParseClasses.swift in Sources */,
+				B06F6F7D199A7BA100453FD2 /* SalaryPrecent.swift in Sources */,
 				B0A23AC619827DC8002334DD /* ViewController.swift in Sources */,
+				B06F6F79199A789700453FD2 /* Calculator.swift in Sources */,
+				B06F6F4F19964B6600453FD2 /* WorkPalce.swift in Sources */,
+				B06F6F4D19964A6200453FD2 /* SMUser.swift in Sources */,
+				B06F6F4A199648E800453FD2 /* UserProvider.swift in Sources */,
+				B06F6F47198D2A2600453FD2 /* WorkPlaceCell.swift in Sources */,
+				B06F6F5319964EB200453FD2 /* Shift.swift in Sources */,
 				B0A23AC419827DC8002334DD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,9 +479,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ShiftMaster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ShiftMaster-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -336,9 +497,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ShiftMaster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ShiftMaster-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -395,6 +562,7 @@
 				B0A23ADC19827DC9002334DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0A23ADD19827DC9002334DD /* Build configuration list for PBXNativeTarget "ShiftMasterTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +571,7 @@
 				B0A23ADF19827DC9002334DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

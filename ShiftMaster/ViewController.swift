@@ -8,10 +8,11 @@
 
 import UIKit
 
-class ViewController: SMUIViewController {
+class ViewController: SMUIViewController  {
     override func viewDidLoad() {
         super.viewDidLoad()
-        
     }
+    
+    
 }
 

@@ -10,7 +10,7 @@ import UIKit
 
 class WorkPlaceCell : UITableViewCell
 {
-    @IBOutlet var WorkPlaceName: UILabel
+    @IBOutlet var WorkPlaceName: UILabel?
     let reusedIdentifire = "WorkPlaceCell"
 
     override func awakeFromNib() {
